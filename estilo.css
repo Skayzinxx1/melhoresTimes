@@ -11,7 +11,7 @@ body {
    text-align: center;
    padding: auto;
    background: #329fc9;
-background: linear-gradient(179deg, rgba(50, 159, 201, 1) 9%, rgba(44, 78, 230, 1) 50%, rgba(7, 235, 87, 1) 100%);
+background: linear-gradient(179deg, rgba(50, 159, 201, 1) 40%, #39F970 , #FFFFFF 70%);
 
 }
 
@@ -45,3 +45,17 @@ footer {
     width: 800px;
     height: auto;
 }
+  .escalacao {
+      list-style: none;
+      padding: 0;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .escalacao li {
+      background-color: #ffffff;
+      border: 2px solid #00796B;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin: 10px 0;
+    }
