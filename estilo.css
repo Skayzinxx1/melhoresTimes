@@ -9,8 +9,8 @@ body {
     font-family: 'Montserrat', sans-serif;
    text-align: center;
    padding: auto;
-   background: #f0f0f0;
    background: linear-gradient(to bottom, #3b82f6, #257992);
+    
 }
 .topo {
     display: flex;              
@@ -19,7 +19,7 @@ body {
     padding: 15px 40px;      
 
   }
-conteudo-lista
+
 .logo-cmc {
     font-size: 32px;
     font-weight: 700;
@@ -73,7 +73,10 @@ conteudo-lista
 
 
 h1 {
-    font-size: 50px;
+   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #6CABDD;
 }
 h3 {
     font-size: 30px;
@@ -95,6 +98,9 @@ li {
 
 footer {
     font-size: 40px;
+    display: flex;
+    justify-content: end;
+    margin: 0px 15px;
 }
 
 .futebol {
@@ -121,3 +127,7 @@ footer {
     .zoom {
         transition: transform 0.3s ease;
       }
+      .boneco {
+        font-size: 40px;
+      }
+     
