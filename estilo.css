@@ -1,23 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
     img {
         width: 200px;
         height: 150px;
     }
 
-
 body {
-    font-family: "Cascadia Mono", sans-serif;
+    font-family: 'Montserrat', sans-serif;
    text-align: center;
    padding: auto;
-   background: #329fc9;
-background: linear-gradient(179deg, rgba(50, 159, 201, 1) 40%, #39F970 , #FFFFFF 70%);
+   background: #f0f0f0;
+   background: linear-gradient(to bottom, #3b82f6, #257992);
+}
+.topo {
+    display: flex;              
+    justify-content: space-between;
+    text-align: center; 
+    padding: 15px 40px;      
 
+  }
+conteudo-lista
+.logo-cmc {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+
+.menu-cmc {
+  display: flex;
+  gap: 30px; 
 }
 
+.menu-item {
+    
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #00e7f7; 
+  cursor: pointer;
+  
+}
+
+.conteudo-principal {
+    background-color: rgba(240, 248, 255); 
+    padding: 20px;
+    border-radius: 10px;
+}
+.conteudo-lista{
+    background-color: rgba(240, 248, 255); 
+
+    border-radius: 5px;
+}
+.meu-time {
+ 
+        background-color: rgba(240, 248, 255); 
+        padding: 20px;
+        border-radius: 10px;
+    
+}
 .atletico {
     text-align: left;
+    
 }
+
 
 h1 {
     font-size: 50px;
@@ -36,6 +89,9 @@ ol {
     padding: 0;
     font-size: 25px;
 }
+li {
+    list-style: none;
+}
 
 footer {
     font-size: 40px;
@@ -45,13 +101,12 @@ footer {
     width: 800px;
     height: auto;
 }
-  .escalacao {
-      list-style: none;
-      padding: 0;
-      max-width: 400px;
-      margin: 0 auto;
+
+    .times img {
+        width: 480px;
+        height: auto; 
+        border-radius: 10px; 
     }
-    
     .escalacao li {
       background-color: #ffffff;
       border: 2px solid #00796B;
@@ -59,3 +114,10 @@ footer {
       padding: 10px 15px;
       margin: 10px 0;
     }
+    .zoom:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+      }
+    .zoom {
+        transition: transform 0.3s ease;
+      }
